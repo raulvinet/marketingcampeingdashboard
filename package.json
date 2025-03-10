@@ -1,0 +1,14 @@
+{
+  "name": "update-costs",
+  "version": "1.0.0",
+  "description": "Script para actualizar costos en archivos CSV",
+  "main": "update_costs.js",
+  "scripts": {
+    "start": "node update_costs.js",
+    "revert": "node revert_costs.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-stringify": "^6.4.5"
+  }
+} 
